@@ -37,21 +37,7 @@
 * [Gallery Frequently Asked Questions](#gallery-frequently-asked-questions)
 
 
-<properties title="" pageTitle="Gallery Overview" description="" authors="adwest" />
-
-<div class="wa-documentationArticle-meta">
-  <p class="wa-linkArray">
-    Related documents:
-    <a href="#gallery-overview">Overview</a>
-    <a href="#gallery-release-notes">Release Notes</a>
-    <a href="#gallery-items">Gallery Items</a>
-    <a href="#gallery-metadata">Gallery Metadata</a>
-    <a href="#gallery-development">Gallery Package Development and Debugging </a>
-    <a href="#gallery-icon-guidelines">Icon Guidelines</a>
-    <a href="#gallery-add-to-resource">Add To Resource</a>
-    <a href="#gallery-faq">FAQ</a>
-  </p>
-</div>
+[Gallery Overview](#gallery-overview) | [Gallery Item Specificiations](#gallery-item-specificiations) | [Gallery Item Metadata](#gallery-item-metadata) | [Gallery Item Field to UI Element Mappings](#gallery-item-field-to-ui-element-mappings) | [Gallery Package Development and Debugging](#gallery-package-development-and-debugging) | [Using the Add to Resource Blade](#using-the-add-to-resource-blade) | [Your icon tile for the Azure Store](#your-icon-tile-for-the-azure-store) | [Developer tooling and productivity](#developer-tooling-and-productivity) | [Gallery Frequently Asked Questions](#gallery-frequently-asked-questions)
 
 <a name="gallery-overview"></a>
 # Gallery Overview
@@ -82,21 +68,7 @@ The entire gallery in the portal is driven by the gallery service. The gallery s
 
 [gallery-items]: ../media/gallery-overview/gallery-items.png
 
-<properties title="" pageTitle="Updated Azure Package Publishing Process (May 2019 Onwards)" description="" authors="ansud" />
-
-<div class="wa-documentationArticle-meta">
-  <p class="wa-linkArray">
-    Related documents:
-    <a href="#gallery-overview">Overview</a>
-    <a href="#gallery-release-notes">Release Notes</a>
-    <a href="#gallery-items">Gallery Items</a>
-    <a href="#gallery-metadata">Gallery Metadata</a>
-    <a href="#gallery-development">Gallery Package Development and Debugging </a>
-    <a href="#gallery-icon-guidelines">Icon Guidelines</a>
-    <a href="#gallery-add-to-resource">Add To Resource</a>
-    <a href="#gallery-faq">FAQ</a>
-  </p>
-</div>
+[Gallery Overview](#gallery-overview) | [Gallery Item Specificiations](#gallery-item-specificiations) | [Gallery Item Metadata](#gallery-item-metadata) | [Gallery Item Field to UI Element Mappings](#gallery-item-field-to-ui-element-mappings) | [Gallery Package Development and Debugging](#gallery-package-development-and-debugging) | [Using the Add to Resource Blade](#using-the-add-to-resource-blade) | [Your icon tile for the Azure Store](#your-icon-tile-for-the-azure-store) | [Developer tooling and productivity](#developer-tooling-and-productivity) | [Gallery Frequently Asked Questions](#gallery-frequently-asked-questions)
 
 <a name="gallery-overview-new-process"></a>
 ## New Process
@@ -129,21 +101,7 @@ The following SLAs would be provided for these incidents:
 -	The process to update packages in dogfood is fully self service and remains the same.
 
 
-<properties title="" pageTitle="Gallery Item Specificiations" description="" authors="ansud" />
-
-<div class="wa-documentationArticle-meta">
-  <p class="wa-linkArray">
-    Related documents:
-    <a href="#gallery-overview">Overview</a>
-    <a href="#gallery-release-notes">Release Notes</a>
-    <a href="#gallery-items">Gallery Items</a>
-    <a href="#gallery-metadata">Gallery Metadata</a>
-    <a href="#gallery-development">Gallery Package Development and Debugging </a>
-    <a href="#gallery-icon-guidelines">Icon Guidelines</a>
-    <a href="#gallery-add-to-resource">Add To Resource</a>
-    <a href="#gallery-faq">FAQ</a>
-  </p>
-</div>
+[Gallery Overview](#gallery-overview) | [Gallery Item Specificiations](#gallery-item-specificiations) | [Gallery Item Metadata](#gallery-item-metadata) | [Gallery Item Field to UI Element Mappings](#gallery-item-field-to-ui-element-mappings) | [Gallery Package Development and Debugging](#gallery-package-development-and-debugging) | [Using the Add to Resource Blade](#using-the-add-to-resource-blade) | [Your icon tile for the Azure Store](#your-icon-tile-for-the-azure-store) | [Developer tooling and productivity](#developer-tooling-and-productivity) | [Gallery Frequently Asked Questions](#gallery-frequently-asked-questions)
 
 <a name="gallery-item-specificiations"></a>
 # Gallery Item Specificiations
@@ -200,7 +158,7 @@ The manifest file contains all of the metadata for your gallery item. For a visu
         { "name": "string", "type": "string", "path": "string", "isDefault": true } // max of 128 characters
     ],
     "icons": {
-        // see: https://auxdocs.azurewebsites.net/en-us#gallery-items
+        // see: https://github.com/babonet/portaldocs/blob/master/gallery-sdk/generated/index-gallery.md#your-icon-tile-for-the-azure-store
         "small": "string", // path to image file
         "medium": "string", // medium images must be 90x90 pixels if bitmaps...
         "large": "string", // 40x40
@@ -481,21 +439,7 @@ For placeholder package you should use a version such as `0.1.0-placeholder`.
 [gallery-ui-examples](#gallery-item-field-to-ui-element-mappings)
 
 
-<properties title="" pageTitle="Marketplace Search" description="" authors="aawest" />
-
-<div class="wa-documentationArticle-meta">
-  <p class="wa-linkArray">
-    Related documents:
-    <a href="#gallery-overview">Overview</a>
-    <a href="#gallery-release-notes">Release Notes</a>
-    <a href="#gallery-items">Gallery Items</a>
-    <a href="#gallery-metadata">Gallery Metadata</a>
-    <a href="#gallery-development">Gallery Package Development and Debugging </a>
-    <a href="#gallery-icon-guidelines">Icon Guidelines</a>
-    <a href="#gallery-add-to-resource">Add To Resource</a>
-    <a href="#gallery-faq">FAQ</a>
-  </p>
-</div>
+[Gallery Overview](#gallery-overview) | [Gallery Item Specificiations](#gallery-item-specificiations) | [Gallery Item Metadata](#gallery-item-metadata) | [Gallery Item Field to UI Element Mappings](#gallery-item-field-to-ui-element-mappings) | [Gallery Package Development and Debugging](#gallery-package-development-and-debugging) | [Using the Add to Resource Blade](#using-the-add-to-resource-blade) | [Your icon tile for the Azure Store](#your-icon-tile-for-the-azure-store) | [Developer tooling and productivity](#developer-tooling-and-productivity) | [Gallery Frequently Asked Questions](#gallery-frequently-asked-questions)
 
 <a name="gallery-item-specificiations-marketplace-search"></a>
 ## Marketplace Search ##
@@ -560,21 +504,7 @@ Often times suggest will pick the closest string to the given query. This does n
 [New_Search_Box]: ../media/gallery-search/New_Search_Box.png
 [Marketplace_Search]: ../media/gallery-search/Marketplace_Search.png
 
-<properties title="" pageTitle="Gallery Metadata" description="" authors="adwest" />
-
-<div class="wa-documentationArticle-meta">
-  <p class="wa-linkArray">
-    Related documents:
-    <a href="#gallery-overview">Overview</a>
-    <a href="#gallery-release-notes">Release Notes</a>
-    <a href="#gallery-items">Gallery Items</a>
-    <a href="#gallery-metadata">Gallery Metadata</a>
-    <a href="#gallery-development">Gallery Package Development and Debugging </a>
-    <a href="#gallery-icon-guidelines">Icon Guidelines</a>
-    <a href="#gallery-add-to-resource">Add To Resource</a>
-    <a href="#gallery-faq">FAQ</a>
-  </p>
-</div>
+[Gallery Overview](#gallery-overview) | [Gallery Item Specificiations](#gallery-item-specificiations) | [Gallery Item Metadata](#gallery-item-metadata) | [Gallery Item Field to UI Element Mappings](#gallery-item-field-to-ui-element-mappings) | [Gallery Package Development and Debugging](#gallery-package-development-and-debugging) | [Using the Add to Resource Blade](#using-the-add-to-resource-blade) | [Your icon tile for the Azure Store](#your-icon-tile-for-the-azure-store) | [Developer tooling and productivity](#developer-tooling-and-productivity) | [Gallery Frequently Asked Questions](#gallery-frequently-asked-questions)
 
 <a name="gallery-item-metadata"></a>
 # Gallery Item Metadata
@@ -730,30 +660,7 @@ Below you will find examples of where the metadata for gallery items are display
 [gallery-wide-tile]: ../media/gallery-ui-examples/gallery-wide-tile.png
 [gallery-details-blade]: ../media/gallery-ui-examples/gallery-details-blade.png
 
-﻿<properties title="" pageTitle="Gallery Package Development and Debugging" description="" authors="nickharris" />
-
-<tags
-	ms.service="portalfx"
-	ms.workload="portalfx"
-	ms.tgt_pltfrm="portalfx"
-	ms.devlang="portalfx"
-	ms.topic="get-started-article"
-	ms.date="02/11/2016"
-	ms.author="1store"/>	
-
-<div class="wa-documentationArticle-meta">
-  <p class="wa-linkArray">
-    Related documents:
-    <a href="#gallery-overview">Overview</a>
-    <a href="#gallery-release-notes">Release Notes</a>
-    <a href="#gallery-items">Gallery Items</a>
-    <a href="#gallery-metadata">Gallery Metadata</a>
-    <a href="#gallery-development">Gallery Package Development and Debugging </a>
-    <a href="#gallery-icon-guidelines">Icon Guidelines</a>
-    <a href="#gallery-add-to-resource">Add To Resource</a>
-    <a href="#gallery-faq">FAQ</a>
-  </p>
-</div>
+﻿[Gallery Overview](#gallery-overview) | [Gallery Item Specificiations](#gallery-item-specificiations) | [Gallery Item Metadata](#gallery-item-metadata) | [Gallery Item Field to UI Element Mappings](#gallery-item-field-to-ui-element-mappings) | [Gallery Package Development and Debugging](#gallery-package-development-and-debugging) | [Using the Add to Resource Blade](#using-the-add-to-resource-blade) | [Your icon tile for the Azure Store](#your-icon-tile-for-the-azure-store) | [Developer tooling and productivity](#developer-tooling-and-productivity) | [Gallery Frequently Asked Questions](#gallery-frequently-asked-questions)
 
 <a name="gallery-package-development-and-debugging"></a>
 # Gallery Package Development and Debugging
@@ -822,21 +729,7 @@ For updates:
 1. Goto the gallery -> local development UI (if UI already open just move away to another category and come back to see updates).
 
 
-<properties title="" pageTitle="Using the Add to Resource Blade" description="" authors="nickharris" />
-
-<div class="wa-documentationArticle-meta">
-  <p class="wa-linkArray">
-    Related documents:
-    <a href="#gallery-overview">Overview</a>
-    <a href="#gallery-release-notes">Release Notes</a>
-    <a href="#gallery-items">Gallery Items</a>
-    <a href="#gallery-metadata">Gallery Metadata</a>
-    <a href="#gallery-development">Gallery Package Development and Debugging </a>
-    <a href="#gallery-icon-guidelines">Icon Guidelines</a>
-    <a href="#gallery-add-to-resource">Add To Resource</a>
-    <a href="#gallery-faq">FAQ</a>
-  </p>
-</div>
+[Gallery Overview](#gallery-overview) | [Gallery Item Specificiations](#gallery-item-specificiations) | [Gallery Item Metadata](#gallery-item-metadata) | [Gallery Item Field to UI Element Mappings](#gallery-item-field-to-ui-element-mappings) | [Gallery Package Development and Debugging](#gallery-package-development-and-debugging) | [Using the Add to Resource Blade](#using-the-add-to-resource-blade) | [Your icon tile for the Azure Store](#your-icon-tile-for-the-azure-store) | [Developer tooling and productivity](#developer-tooling-and-productivity) | [Gallery Frequently Asked Questions](#gallery-frequently-asked-questions)
 
 <a name="using-the-add-to-resource-blade"></a>
 # Using the Add to Resource Blade
@@ -898,21 +791,7 @@ In order to set the content of the gallery results list you will need to have th
 [add-to-resource-with-detail]: ../media/gallery-add-to-resource/add-to-resource-with-detail.png
 
 
-<properties title="" pageTitle="Gallery Icon Styles" description="" authors="nickharris" />
-
-<div class="wa-documentationArticle-meta">
-  <p class="wa-linkArray">
-    Related documents:
-    <a href="#gallery-overview">Overview</a>
-    <a href="#gallery-release-notes">Release Notes</a>
-    <a href="#gallery-items">Gallery Items</a>
-    <a href="#gallery-metadata">Gallery Metadata</a>
-    <a href="#gallery-development">Gallery Package Development and Debugging </a>
-    <a href="#gallery-icon-guidelines">Icon Guidelines</a>
-    <a href="#gallery-add-to-resource">Add To Resource</a>
-    <a href="#gallery-faq">FAQ</a>
-  </p>
-</div>
+[Gallery Overview](#gallery-overview) | [Gallery Item Specificiations](#gallery-item-specificiations) | [Gallery Item Metadata](#gallery-item-metadata) | [Gallery Item Field to UI Element Mappings](#gallery-item-field-to-ui-element-mappings) | [Gallery Package Development and Debugging](#gallery-package-development-and-debugging) | [Using the Add to Resource Blade](#using-the-add-to-resource-blade) | [Your icon tile for the Azure Store](#your-icon-tile-for-the-azure-store) | [Developer tooling and productivity](#developer-tooling-and-productivity) | [Gallery Frequently Asked Questions](#gallery-frequently-asked-questions)
 
 <a name="your-icon-tile-for-the-azure-store"></a>
 # Your icon tile for the Azure Store
@@ -948,21 +827,7 @@ Icon tiles used in the Windows Azure marketing site and developer portal
 
 
 
-<properties title="" pageTitle="Gallery Frequently Asked Questions" description="" authors="adwest" />
-
-<div class="wa-documentationArticle-meta">
-  <p class="wa-linkArray">
-    Related documents:
-    <a href="#gallery-overview">Overview</a>
-    <a href="#gallery-release-notes">Release Notes</a>
-    <a href="#gallery-items">Gallery Items</a>
-    <a href="#gallery-metadata">Gallery Metadata</a>
-    <a href="#gallery-development">Gallery Package Development and Debugging </a>
-    <a href="#gallery-icon-guidelines">Icon Guidelines</a>
-    <a href="#gallery-add-to-resource">Add To Resource</a>
-    <a href="#gallery-faq">FAQ</a>
-  </p>
-</div>
+[Gallery Overview](#gallery-overview) | [Gallery Item Specificiations](#gallery-item-specificiations) | [Gallery Item Metadata](#gallery-item-metadata) | [Gallery Item Field to UI Element Mappings](#gallery-item-field-to-ui-element-mappings) | [Gallery Package Development and Debugging](#gallery-package-development-and-debugging) | [Using the Add to Resource Blade](#using-the-add-to-resource-blade) | [Your icon tile for the Azure Store](#your-icon-tile-for-the-azure-store) | [Developer tooling and productivity](#developer-tooling-and-productivity) | [Gallery Frequently Asked Questions](#gallery-frequently-asked-questions)
 
 <a name="developer-tooling-and-productivity"></a>
 # Developer tooling and productivity
