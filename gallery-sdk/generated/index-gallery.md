@@ -42,14 +42,14 @@
 <div class="wa-documentationArticle-meta">
   <p class="wa-linkArray">
     Related documents:
-    <a href="/documentation/articles/gallery-overview">Overview</a>
-    <a href="/documentation/articles/gallery-release-notes">Release Notes</a>
-    <a href="/documentation/articles/gallery-items">Gallery Items</a>
-    <a href="/documentation/articles/gallery-metadata">Gallery Metadata</a>
-    <a href="/documentation/articles/gallery-development">Gallery Package Development and Debugging </a>
-    <a href="/documentation/articles/gallery-icon-guidelines">Icon Guidelines</a>
-    <a href="/documentation/articles/gallery-add-to-resource">Add To Resource</a>
-    <a href="/documentation/articles/gallery-faq">FAQ</a>
+    <a href="#gallery-overview">Overview</a>
+    <a href="#gallery-release-notes">Release Notes</a>
+    <a href="#gallery-items">Gallery Items</a>
+    <a href="#gallery-metadata">Gallery Metadata</a>
+    <a href="#gallery-development">Gallery Package Development and Debugging </a>
+    <a href="#gallery-icon-guidelines">Icon Guidelines</a>
+    <a href="#gallery-add-to-resource">Add To Resource</a>
+    <a href="#gallery-faq">FAQ</a>
   </p>
 </div>
 
@@ -63,7 +63,7 @@ The gallery is the single place where users will go to find anything that can be
 
 <a name="gallery-overview-onboarding-to-the-gallery"></a>
 ## OnBoarding to the Gallery
-In order to add an item to the gallery, you must create and publish a gallery item. The contents of the gallery item are explained in more detail in the <a href="/documentation/articles/gallery-items">gallery item documentation</a>. However, the general idea of a gallery item is that it consists of all the metadata that drives the gallery UX around your resource in addition to various files that are used to run your resource create experience.
+In order to add an item to the gallery, you must create and publish a gallery item. The contents of the gallery item are explained in more detail in the <a href="#gallery-items">gallery item documentation</a>. However, the general idea of a gallery item is that it consists of all the metadata that drives the gallery UX around your resource in addition to various files that are used to run your resource create experience.
 
 One extension may publish multiple gallery items and a single create extension can handle the creation of multiple gallery items. You must create at least one gallery item to enable your create experience.
 
@@ -87,14 +87,14 @@ The entire gallery in the portal is driven by the gallery service. The gallery s
 <div class="wa-documentationArticle-meta">
   <p class="wa-linkArray">
     Related documents:
-    <a href="/documentation/articles/gallery-overview">Overview</a>
-    <a href="/documentation/articles/gallery-release-notes">Release Notes</a>
-    <a href="/documentation/articles/gallery-items">Gallery Items</a>
-    <a href="/documentation/articles/gallery-metadata">Gallery Metadata</a>
-    <a href="/documentation/articles/gallery-development">Gallery Package Development and Debugging </a>
-    <a href="/documentation/articles/gallery-icon-guidelines">Icon Guidelines</a>
-    <a href="/documentation/articles/gallery-add-to-resource">Add To Resource</a>
-    <a href="/documentation/articles/gallery-faq">FAQ</a>
+    <a href="#gallery-overview">Overview</a>
+    <a href="#gallery-release-notes">Release Notes</a>
+    <a href="#gallery-items">Gallery Items</a>
+    <a href="#gallery-metadata">Gallery Metadata</a>
+    <a href="#gallery-development">Gallery Package Development and Debugging </a>
+    <a href="#gallery-icon-guidelines">Icon Guidelines</a>
+    <a href="#gallery-add-to-resource">Add To Resource</a>
+    <a href="#gallery-faq">FAQ</a>
   </p>
 </div>
 
@@ -134,14 +134,14 @@ The following SLAs would be provided for these incidents:
 <div class="wa-documentationArticle-meta">
   <p class="wa-linkArray">
     Related documents:
-    <a href="/documentation/articles/gallery-overview">Overview</a>
-    <a href="/documentation/articles/gallery-release-notes">Release Notes</a>
-    <a href="/documentation/articles/gallery-items">Gallery Items</a>
-    <a href="/documentation/articles/gallery-metadata">Gallery Metadata</a>
-    <a href="/documentation/articles/gallery-development">Gallery Package Development and Debugging </a>
-    <a href="/documentation/articles/gallery-icon-guidelines">Icon Guidelines</a>
-    <a href="/documentation/articles/gallery-add-to-resource">Add To Resource</a>
-    <a href="/documentation/articles/gallery-faq">FAQ</a>
+    <a href="#gallery-overview">Overview</a>
+    <a href="#gallery-release-notes">Release Notes</a>
+    <a href="#gallery-items">Gallery Items</a>
+    <a href="#gallery-metadata">Gallery Metadata</a>
+    <a href="#gallery-development">Gallery Package Development and Debugging </a>
+    <a href="#gallery-icon-guidelines">Icon Guidelines</a>
+    <a href="#gallery-add-to-resource">Add To Resource</a>
+    <a href="#gallery-faq">FAQ</a>
   </p>
 </div>
 
@@ -200,7 +200,7 @@ The manifest file contains all of the metadata for your gallery item. For a visu
         { "name": "string", "type": "string", "path": "string", "isDefault": true } // max of 128 characters
     ],
     "icons": {
-        // see: https://auxdocs.azurewebsites.net/en-us/documentation/articles/gallery-items
+        // see: https://auxdocs.azurewebsites.net/en-us#gallery-items
         "small": "string", // path to image file
         "medium": "string", // medium images must be 90x90 pixels if bitmaps...
         "large": "string", // 40x40
@@ -486,20 +486,20 @@ For placeholder package you should use a version such as `0.1.0-placeholder`.
 <div class="wa-documentationArticle-meta">
   <p class="wa-linkArray">
     Related documents:
-    <a href="/documentation/articles/gallery-overview">Overview</a>
-    <a href="/documentation/articles/gallery-release-notes">Release Notes</a>
-    <a href="/documentation/articles/gallery-items">Gallery Items</a>
-    <a href="/documentation/articles/gallery-metadata">Gallery Metadata</a>
-    <a href="/documentation/articles/gallery-development">Gallery Package Development and Debugging </a>
-    <a href="/documentation/articles/gallery-icon-guidelines">Icon Guidelines</a>
-    <a href="/documentation/articles/gallery-add-to-resource">Add To Resource</a>
-    <a href="/documentation/articles/gallery-faq">FAQ</a>
+    <a href="#gallery-overview">Overview</a>
+    <a href="#gallery-release-notes">Release Notes</a>
+    <a href="#gallery-items">Gallery Items</a>
+    <a href="#gallery-metadata">Gallery Metadata</a>
+    <a href="#gallery-development">Gallery Package Development and Debugging </a>
+    <a href="#gallery-icon-guidelines">Icon Guidelines</a>
+    <a href="#gallery-add-to-resource">Add To Resource</a>
+    <a href="#gallery-faq">FAQ</a>
   </p>
 </div>
 
 <a name="gallery-item-specificiations-marketplace-search"></a>
 ## Marketplace Search ##
-While creating your gallery package, keep in mind how your item will be discovered by customers. You will need to properly curate your package into the Marketplace. More information regarding curation <a href="/documentation/articles/gallery-faq">here</a>. Your item will also need to be easily discoverable via Marketplace search.
+While creating your gallery package, keep in mind how your item will be discovered by customers. You will need to properly curate your package into the Marketplace. More information regarding curation <a href="#gallery-faq">here</a>. Your item will also need to be easily discoverable via Marketplace search.
 
 > [WACOM.NOTE] The Marketplace leverages Azure Search to power its search functionality. [Read more.](https://azure.microsoft.com/en-us/services/search/)
 
@@ -521,7 +521,7 @@ Searches in Marketplace are made within the context of the current menu. If a cu
 
 <a name="gallery-item-specificiations-gallery-package-search-metadata"></a>
 ## Gallery Package Search Metadata ##
-The following fields in your package <a href="/documentation/articles/gallery-items">manifest</a> are indexed in Azure Search. They are in descending order of weight given to the field when determining search ranking. 
+The following fields in your package <a href="#gallery-items">manifest</a> are indexed in Azure Search. They are in descending order of weight given to the field when determining search ranking. 
 Marketplace also uses popularity data to rank search results. When a user selects an item from a search result, it is given a small boost to its relevancy in future searches.
 
 - itemDisplayName
@@ -547,7 +547,7 @@ Example: A customer whose locale is set to Spanish searches for "Storage account
 
 <a name="gallery-item-specificiations-faqs-and-notes-search-hide-keys"></a>
 ### Search &amp; Hide Keys ###
-Hidden Marketplace items behind hide keys will behave differently when searched. See <a href="/documentation/articles/gallery-development">Testing in production</a> for more information on hidden marketplace items.
+Hidden Marketplace items behind hide keys will behave differently when searched. See <a href="#gallery-development">Testing in production</a> for more information on hidden marketplace items.
 - Marketplace makes two separate requests for public and hidden items. This allows for the highest version of public and private items to be discoverable via search. 
 - Hidden items will appear at the top or bottom of search results. If you do not see your hidden item, look at the bottom of the search results.
 - Hidden items will NOT be suggested
@@ -565,14 +565,14 @@ Often times suggest will pick the closest string to the given query. This does n
 <div class="wa-documentationArticle-meta">
   <p class="wa-linkArray">
     Related documents:
-    <a href="/documentation/articles/gallery-overview">Overview</a>
-    <a href="/documentation/articles/gallery-release-notes">Release Notes</a>
-    <a href="/documentation/articles/gallery-items">Gallery Items</a>
-    <a href="/documentation/articles/gallery-metadata">Gallery Metadata</a>
-    <a href="/documentation/articles/gallery-development">Gallery Package Development and Debugging </a>
-    <a href="/documentation/articles/gallery-icon-guidelines">Icon Guidelines</a>
-    <a href="/documentation/articles/gallery-add-to-resource">Add To Resource</a>
-    <a href="/documentation/articles/gallery-faq">FAQ</a>
+    <a href="#gallery-overview">Overview</a>
+    <a href="#gallery-release-notes">Release Notes</a>
+    <a href="#gallery-items">Gallery Items</a>
+    <a href="#gallery-metadata">Gallery Metadata</a>
+    <a href="#gallery-development">Gallery Package Development and Debugging </a>
+    <a href="#gallery-icon-guidelines">Icon Guidelines</a>
+    <a href="#gallery-add-to-resource">Add To Resource</a>
+    <a href="#gallery-faq">FAQ</a>
   </p>
 </div>
 
@@ -744,14 +744,14 @@ Below you will find examples of where the metadata for gallery items are display
 <div class="wa-documentationArticle-meta">
   <p class="wa-linkArray">
     Related documents:
-    <a href="/documentation/articles/gallery-overview">Overview</a>
-    <a href="/documentation/articles/gallery-release-notes">Release Notes</a>
-    <a href="/documentation/articles/gallery-items">Gallery Items</a>
-    <a href="/documentation/articles/gallery-metadata">Gallery Metadata</a>
-    <a href="/documentation/articles/gallery-development">Gallery Package Development and Debugging </a>
-    <a href="/documentation/articles/gallery-icon-guidelines">Icon Guidelines</a>
-    <a href="/documentation/articles/gallery-add-to-resource">Add To Resource</a>
-    <a href="/documentation/articles/gallery-faq">FAQ</a>
+    <a href="#gallery-overview">Overview</a>
+    <a href="#gallery-release-notes">Release Notes</a>
+    <a href="#gallery-items">Gallery Items</a>
+    <a href="#gallery-metadata">Gallery Metadata</a>
+    <a href="#gallery-development">Gallery Package Development and Debugging </a>
+    <a href="#gallery-icon-guidelines">Icon Guidelines</a>
+    <a href="#gallery-add-to-resource">Add To Resource</a>
+    <a href="#gallery-faq">FAQ</a>
   </p>
 </div>
 
@@ -776,7 +776,7 @@ That’s it, for those of you who are using CoreXT.  Here are a few gotchas.
 <a name="gallery-package-development-and-debugging-testing-in-production"></a>
 ## Testing in production
 
-Gallery items can be uploaded to production behind a hide key or subscription GUID filter. Only users who specify the hide key via query parameter or have access to the subscription will see the package in Marketplace. Specify filters in your package's <a href="/documentation/articles/gallery-items">manifest</a>.
+Gallery items can be uploaded to production behind a hide key or subscription GUID filter. Only users who specify the hide key via query parameter or have access to the subscription will see the package in Marketplace. Specify filters in your package's <a href="#gallery-items">manifest</a>.
 To access your item behind a hide key, pass the following query parameter when navigating to Portal:  ?microsoft_azure_marketplace_ItemHideKey=YOURHIDEKEY
 Multiple hide keys can be used via a comma separated list: ?microsoft_azure_marketplace_ItemHideKey=KEY1,KEY2,KEY3
 
@@ -827,14 +827,14 @@ For updates:
 <div class="wa-documentationArticle-meta">
   <p class="wa-linkArray">
     Related documents:
-    <a href="/documentation/articles/gallery-overview">Overview</a>
-    <a href="/documentation/articles/gallery-release-notes">Release Notes</a>
-    <a href="/documentation/articles/gallery-items">Gallery Items</a>
-    <a href="/documentation/articles/gallery-metadata">Gallery Metadata</a>
-    <a href="/documentation/articles/gallery-development">Gallery Package Development and Debugging </a>
-    <a href="/documentation/articles/gallery-icon-guidelines">Icon Guidelines</a>
-    <a href="/documentation/articles/gallery-add-to-resource">Add To Resource</a>
-    <a href="/documentation/articles/gallery-faq">FAQ</a>
+    <a href="#gallery-overview">Overview</a>
+    <a href="#gallery-release-notes">Release Notes</a>
+    <a href="#gallery-items">Gallery Items</a>
+    <a href="#gallery-metadata">Gallery Metadata</a>
+    <a href="#gallery-development">Gallery Package Development and Debugging </a>
+    <a href="#gallery-icon-guidelines">Icon Guidelines</a>
+    <a href="#gallery-add-to-resource">Add To Resource</a>
+    <a href="#gallery-faq">FAQ</a>
   </p>
 </div>
 
@@ -903,14 +903,14 @@ In order to set the content of the gallery results list you will need to have th
 <div class="wa-documentationArticle-meta">
   <p class="wa-linkArray">
     Related documents:
-    <a href="/documentation/articles/gallery-overview">Overview</a>
-    <a href="/documentation/articles/gallery-release-notes">Release Notes</a>
-    <a href="/documentation/articles/gallery-items">Gallery Items</a>
-    <a href="/documentation/articles/gallery-metadata">Gallery Metadata</a>
-    <a href="/documentation/articles/gallery-development">Gallery Package Development and Debugging </a>
-    <a href="/documentation/articles/gallery-icon-guidelines">Icon Guidelines</a>
-    <a href="/documentation/articles/gallery-add-to-resource">Add To Resource</a>
-    <a href="/documentation/articles/gallery-faq">FAQ</a>
+    <a href="#gallery-overview">Overview</a>
+    <a href="#gallery-release-notes">Release Notes</a>
+    <a href="#gallery-items">Gallery Items</a>
+    <a href="#gallery-metadata">Gallery Metadata</a>
+    <a href="#gallery-development">Gallery Package Development and Debugging </a>
+    <a href="#gallery-icon-guidelines">Icon Guidelines</a>
+    <a href="#gallery-add-to-resource">Add To Resource</a>
+    <a href="#gallery-faq">FAQ</a>
   </p>
 </div>
 
@@ -953,14 +953,14 @@ Icon tiles used in the Windows Azure marketing site and developer portal
 <div class="wa-documentationArticle-meta">
   <p class="wa-linkArray">
     Related documents:
-    <a href="/documentation/articles/gallery-overview">Overview</a>
-    <a href="/documentation/articles/gallery-release-notes">Release Notes</a>
-    <a href="/documentation/articles/gallery-items">Gallery Items</a>
-    <a href="/documentation/articles/gallery-metadata">Gallery Metadata</a>
-    <a href="/documentation/articles/gallery-development">Gallery Package Development and Debugging </a>
-    <a href="/documentation/articles/gallery-icon-guidelines">Icon Guidelines</a>
-    <a href="/documentation/articles/gallery-add-to-resource">Add To Resource</a>
-    <a href="/documentation/articles/gallery-faq">FAQ</a>
+    <a href="#gallery-overview">Overview</a>
+    <a href="#gallery-release-notes">Release Notes</a>
+    <a href="#gallery-items">Gallery Items</a>
+    <a href="#gallery-metadata">Gallery Metadata</a>
+    <a href="#gallery-development">Gallery Package Development and Debugging </a>
+    <a href="#gallery-icon-guidelines">Icon Guidelines</a>
+    <a href="#gallery-add-to-resource">Add To Resource</a>
+    <a href="#gallery-faq">FAQ</a>
   </p>
 </div>
 
@@ -973,14 +973,14 @@ Yes, by default the File > New project template is installed as part of the MSI 
 
 <a name="developer-tooling-and-productivity-do-you-have-nuget-packages-for-the-portal-sdk"></a>
 #### Do you have NuGet packages for the Portal SDK? ####
-Yes and if you are not using them you should ensure you update as it will provide a much more efficient path to update to newer versions of the SDK.  See the following documentation regarding <a href="/documentation/articles/portalfx-nuget-overview">NuGet Packages</a>
+Yes and if you are not using them you should ensure you update as it will provide a much more efficient path to update to newer versions of the SDK.  See the following documentation regarding <a href="#portalfx-nuget-overview">NuGet Packages</a>
 
 <a name="gallery-frequently-asked-questions"></a>
 # Gallery Frequently Asked Questions
 
 <a name="gallery-frequently-asked-questions-how-do-i-get-a-gallery-item-into-the-gallery"></a>
 #### How do I get a Gallery Item into the gallery?
-You will need to create your own gallery items for your resources. You can find instruction on how to do this in the <a href="/documentation/articles/gallery-items">gallery items section</a> of these documents.
+You will need to create your own gallery items for your resources. You can find instruction on how to do this in the <a href="#gallery-items">gallery items section</a> of these documents.
 
 <a name="gallery-frequently-asked-questions-how-do-i-authenticate-to-the-gallery-service-to-publish-my-gallery-items"></a>
 #### How do I authenticate to the gallery service to publish my gallery items?
@@ -988,11 +988,11 @@ At this time, you will need a certificate that maps to each environment. You can
 
 <a name="gallery-frequently-asked-questions-do-i-have-to-have-publish-a-gallery-item-in-order-to-be-in-the-portal-gallery"></a>
 #### Do I have to have publish a gallery item in order to be in the portal gallery?
-Yes, all resource providers must publish at least one gallery item in order to be in the gallery. Gallery items contain all of the information used to start create wizards. If you need to test your package in production you can follow <a href="/documentation/articles/gallery-development">these steps</a> to side load your package in production.
+Yes, all resource providers must publish at least one gallery item in order to be in the gallery. Gallery items contain all of the information used to start create wizards. If you need to test your package in production you can follow <a href="#gallery-development">these steps</a> to side load your package in production.
 
 <a name="gallery-frequently-asked-questions-how-do-i-add-my-resource-gallery-item-to-the-new-menu-or-marketplace-while-i-am-developing"></a>
 #### How do I add my resource/gallery item to the +New menu or Marketplace while I am developing?
-For now, we do not support this scenario without using a fully deployed package. If you need to test your package in production you can follow <a href="/documentation/articles/gallery-development">these steps</a> to side load your package in production.
+For now, we do not support this scenario without using a fully deployed package. If you need to test your package in production you can follow <a href="#gallery-development">these steps</a> to side load your package in production.
 
 <a name="gallery-frequently-asked-questions-how-do-i-add-my-resource-gallery-item-to-the-marketplace-in-the-test-environments-or-production"></a>
 #### How do I add my resource/gallery item to the Marketplace in the test environments or production?
@@ -1002,7 +1002,7 @@ The entire gallery is driven by a curation service. The curation service control
 
 <a name="gallery-frequently-asked-questions-how-do-i-hide-a-gallery-item"></a>
 #### How do I hide a gallery item?
-You can associate a hide key with a gallery item. This key will be required when trying to access the item from the Azure Portal. For information on how to add and remove hide keys, look at "Gallery Package Management" section in the <a href="/documentation/articles/gallery-items">Gallery Items section</a>.
+You can associate a hide key with a gallery item. This key will be required when trying to access the item from the Azure Portal. For information on how to add and remove hide keys, look at "Gallery Package Management" section in the <a href="#gallery-items">Gallery Items section</a>.
 
 <a name="gallery-frequently-asked-questions-how-do-i-access-a-hidden-gallery-item-in-the-azure-portal"></a>
 #### How do I access a hidden gallery item in the Azure Portal?
