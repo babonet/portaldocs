@@ -59,14 +59,14 @@ The gallery should be the single place where users browse for resources they wil
 
 Items in the gallery should reflect what users are looking for. You should not ship your team in the gallery. For example, if your resource provider can create multiple resources you will likely publish multiple gallery items.
 
-![Gallery items][gallery-items-new]
+![Gallery items][gallery-items]
 
 <a name="gallery-overview-gallery-service"></a>
 ## Gallery Service
 The entire gallery in the portal is driven by the gallery service. The gallery service is responsible for hosting and serving gallery content including metadata, icons, screenshots, and Azure Templates. You can see all of the items in the production gallery service at: [https://gallery.azure.com/Microsoft.Gallery/galleryitems?api-version=2015-10-01&includePreview=true](https://gallery.azure.com/Microsoft.Gallery/galleryitems?api-version=2015-10-01&includePreview=true).
 
 
-[gallery-items]: ../media/gallery-overview/gallery-items.png
+[gallery-items]: ../media/gallery-overview/gallery-items-new.png
 
 [Gallery Overview](#gallery-overview) | [Gallery Item Specificiations](#gallery-item-specificiations) | [Gallery Item Metadata](#gallery-item-metadata) | [Gallery Item Field to UI Element Mappings](#gallery-item-field-to-ui-element-mappings) | [Gallery Package Development and Debugging](#gallery-package-development-and-debugging) | [Using the Add to Resource Blade](#using-the-add-to-resource-blade) | [Your icon tile for the Azure Store](#your-icon-tile-for-the-azure-store) | [Developer tooling and productivity](#developer-tooling-and-productivity) | [Gallery Frequently Asked Questions](#gallery-frequently-asked-questions)
 
