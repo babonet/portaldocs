@@ -59,7 +59,7 @@ The gallery should be the single place where users browse for resources they wil
 
 Items in the gallery should reflect what users are looking for. You should not ship your team in the gallery. For example, if your resource provider can create multiple resources you will likely publish multiple gallery items.
 
-![Gallery items][gallery-items]
+![Gallery items_new][gallery-items]
 
 <a name="gallery-overview-gallery-service"></a>
 ## Gallery Service
